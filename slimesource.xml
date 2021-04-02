@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<update version="1.0">
+		</update>
+	</info>
+	<element name="DM Tuz" type="Source" source="Third Party" id="ID_HOMEBREW_SOURCE_DM_TUZ">
+		<description>
+		</description>
+		<setters>
+			<set name="abbreviation">DMT</set>
+			<set name="url">https://www.patreon.com/DMTuz</set>
+			<set name="author" url="https://www.patreon.com/DMTuz">DM Tuz</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
