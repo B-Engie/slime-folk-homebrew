@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>
+			DM Tuz
+		</name>
+	</info>
+	<files>
+		<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/c1fb949e803c7b92c23634d17e8189bd9597e4b3/slimefolk.xml?token=ATQH2VU5XVKC7JUTDEY3ZATAM5BOS"/>
+		<file name="slimefolkfeats.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolkfeats.xml?token=ATQH2VSEY4PQK6GPIBVKBKDAM5BLE"/>
+	</files>
+</index>
