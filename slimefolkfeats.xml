@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Slime Folk Feats</name>
+		<description>Feats to accompany DM Tuz's Slime Folk Homebrew race.</description>
+		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tuz</author>
+	</info>
+
+	<element name="Bouncy" type="Feat" source="Third Party" id="ID_TP_FEAT_BOUNCY">
+		<prerequisite>Slime Folk</prerequisite>
+		<requirements>ID_RACE_SLIME_FOLK</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk</i>
+			</p>
+			<p>
+				You learned to capitalize on your flexible form and tap into your ooze ancestry to shrug off blows and impacts. You gain the following benefits:
+			</p>
+			<ul>
+				<li>Your Constitution score increases by 1, to a maximum of 20.</li>
+				<li>
+					When jumping you can use your Constitution score in place of your Strength score to determine how far and high you can jump.
+				</li>
+				<li>
+					When you take the dodge action you become resistant to bludgeoning damage until the beginning of your next turn.
+				</li>
+				<li>
+					When you take bludgeoning damage, you can use a reaction to gain resistance to bludgeoning damage until the end of your next turn. If you use this feature to gain resistance to bludgeoning damage caused by falling, you do not fall prone after landing. Once you use this feature, you can’t use it again until you finish a short or long rest.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When you take the dodge action, you become resistant to buldgeoning damage until the beginning of your next turn. When you take bludgeoning damage, you can use a reaction to gain resistance to bludgeoning damage until the end of your next turn. If you use this feature to gain resistance to bludgeoning damage caused by falling, you do not fall prone after landing. Once you use this feature, you can’t use it again until you finish a short or long rest.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" />
+		</rules>
+	</element>
+	<element name="Luminescence" type="Feat" source="Third Party" id="ID_TP_FEAT_LUMINENSCENCE">
+		<prerequisite>Slime Folk</prerequisite>
+		<requirements>ID_RACE_SLIME_FOLK</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk</i>
+			</p>
+			<p>
+				Your gelatinous body developes an innate bioluminescence as well as the ability to control it. You gain the following benefits:
+			</p>
+			<ul>
+				<li>
+					As an action you can glow and emit 20 ft. of bright light and an additional 20 ft. of dim light. As a bonus action on each of your turns, you can regulate how much light you give off, reducing the bright light and dim light to up to a minimum of 5 ft. each. You can end emitting light altogether as a bonus action.
+				</li>
+				<li>
+					As an action you can emit a powerful flash of light. Each creature within 20 ft. of you must succeed a Constitution saving throw or be blinded until the end of your next turn. The DC is equal to 8 + your Constitution modifier + your proficiency bonus. Once you use this feature, you can’t use an action to emit bright light or use this feature again until you have finished a short or long rest.
+				</li>
+				<li>
+					You gain resistance to radiant damage.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				As an action you can glow and emit 20 ft. of bright light and an additional 20 ft. of dim light. As a bonus action on each of your turns, you can regulate how much light you give off, reducing the bright light and dim light to up to a minimum of 5 ft. each. You can end emitting light altogether as a bonus action.
+				As an action you can emit a powerful flash of light. Each creature within 20 ft. of you must succeed a Constitution saving throw or be blinded until the end of your next turn. The DC is equal to {{lum-flash:dc}}. Once you use this feature, you can’t use an action to emit bright light or use this feature again until you have finished a short or long rest.
+				You gain resistance to radiant damage.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="lum-flash:dc" value="8" />
+			<stat name="lum-flash:dc" value="constitution:modifier" />
+			<stat name="lum-flash:dc" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Vibration Sense" type="Feat" source="Third Party" id="ID_TP_FEAT_VIBRATION_SENSE">
+		<prerequisite>Slime Folk</prerequisite>
+		<requirements>ID_RACE_SLIME_FOLK</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk</i>
+			</p>
+			<p>
+				Oozes are known to perceive the world by sensing the tiniest vibrations in the air. You learned to tap into your ooze heirtage to develope a limited vibration sense. You gain the following benefits:
+			</p>
+			<ul>
+				<li>
+					You gain proficiency in the Perception skill if you don’t have it already.
+				</li>
+				<li>
+					You gain tremorsense, allowing you to detect and pinpoint the origin of vibrations within 10 ft. of yourself.
+				</li>
+				<li>
+					As an action, you can focus your senses to gain blindsight, allowing you to perceive your surroundings within 30 ft. of yourself without relying on sight, until the end of your turn.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You gain proficiency in Perception. You also gain tremorsense, and, as an action, you gain blindsight up to 30 ft. until the end of your next turn</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+
+	<element name="Spawn of Juiblex" type="Feat" source="Third Party" id="ID_TP_FEAT_SPAWN_OF_JUIBLEX">
+		<prerequisite>Slime Folk</prerequisite>
+		<requirements>ID_RACE_SLIME_FOLK</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk</i>
+			</p>
+			<p>
+				Your faint relation to Juiblex becomes apparent, as your fiendish traits manifest. You gain the following benefits:
+			</p>
+			<ul>
+				<li>
+					The first time on a turn you hit with a pseudopod attack, it deals 2d6 acid damage instead of 1d6.
+				</li>
+				<li>
+					A creature that start its turn grappled by you must succeed a Constitution saving throw or be poisoned until the end of your next turn. The DC is equal to 8 + your Constitution modifier + your proficiency bonus. You can supress this effect at will.
+				</li>
+				<li>
+					You gain a climbing speed equal to half of your walking speed and can use it to climb difficult surfaces, including upside down on ceilings without needing to make an ability check.
+				</li>
+				<li>
+					You learn the Acid Splash cantrip. Constitution is your spellcasting ability to cast the spell.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				The first time on a turn you hit with a pseudopod attack, it deals 2d6 acid damage instead of 1d6.
+				A creature that start its turn grappled by you must succeed a Constitution saving throw or be poisoned until the end of your next turn. The DC is equal to {{grapple-poison:dc}}. You can supress this effect at will.
+				You learn the Acid Splash cantrip. Constitution is your spellcasting ability to cast the spell.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="grapple-poison:dc" value="8" />
+			<stat name="grapple-poison:dc" value="constitution:modifier" />
+			<stat name="grapple-poison:dc" value="proficiency" />
+			<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" />
+		</rules>
+	</element>
+	
+	<element name="Hungry Hungry Goo" type="Feat" source="Third Party" id="ID_TP_FEAT_HUNGRY_HUNGRY_GOO">
+		<prerequisite>Slime Folk (Feral)</prerequisite>
+		<requirements>ID_SUB_RACE_FERAL</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk (Feral)</i>
+			</p>
+			<p>
+				Your deepen your primal appetite. Your hunger drives you forward, giving you the following benefits:
+			</p>
+			<ul>
+				<li>
+					You can engulf creatures that are one size larger than you.
+				</li>
+				<li>
+					When you hit a creature with a pseudopod attack, you can use a bonus action to attempt to grapple the same creature as a bonus action until the end of your turn.
+				</li>
+				<li>
+					When a creature fails its saving throw against your Engulf trait, you can move into its space to trap it in your body instead. The engulfed creature can’t breathe and is restrained. While engulfing a creature or object, your speed is halved. When you move, the engulfed creature or object moves with you. You can only have one creature or object engulfed this way at a time. A trapped creature can try to escape by taking an action to make a Strength check (same DC as for Engulf). On a success, the creature escapes and enters a space of its choice within 5 feet of you.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				You can engulf creatures one size larger than you.
+				When you hit a creature with a pseudopod attack, you can use a bonus action to attempt to grapple the same creature as a bonus action until the end of your turn.
+				When a creature fails its saving throw against your Engulf trait, you can move into its space to trap it in your body instead. The engulfed creature can’t breathe and is restrained. While engulfing a creature or object, your speed is halved. When you move, the engulfed creature or object moves with you. You can only have one creature or object engulfed this way at a time. A trapped creature can try to escape by taking an action to make a Strength check (same DC as for Engulf). On a success, the creature escapes and enters a space of its choice within 5 feet of you.
+			</description>
+		</sheet>
+	</element>
+	<element name="Ooze Potion" type="Feat" source="Third Party" id="ID_TP_FEAT_OOZE_POTION">
+		<prerequisite>Slime Folk (Alchemical)</prerequisite>
+		<requirements>ID_SUB_RACE_ALCHEMICAL</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk (Alchemical)</i>
+			</p>
+			<p>
+				Hours upon hours of self experimentation granted you a deep understanding of your own alchemical make up. You learned to conciosuly mix and match alchemical ingredients in your own body. You gain the following benefits:
+			</p>
+			<ul>
+				<li>
+					Your own body becomes a usable set of alchemist’s supplies only you are proficient with.
+				</li>
+				<li>
+					When you take a short rest, you can spend 1 hit dice to create one healing potion from your own body. A creature can use an action to drink the potion, it regains hit points equal to your spent hit dice plus your character level. This potion lasts for 8 hours before losing its effect.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				Your own body becomes a usable set of alchemist’s supplies only you are proficient with.
+				When you take a short rest, you can spend 1 hit dice to create one healing potion from your own body. A creature can use an action to drink the potion, it regains hit points equal to your spent hit dice plus your character level. This potion lasts for 8 hours before losing its effect.
+			</description>
+		</sheet>
+	</element>
+	<element name="Memory Thief" type="Feat" source="Third Party" id="ID_TP_FEAT_MEMORY_THIEF">
+		<prerequisite>Slime Folk (Mnemonic)</prerequisite>
+		<requirements>ID_SUB_RACE_MNEMONIC</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk (Mnemonic)</i>
+			</p>
+			<p>
+				Your ability to read memories becomes more aggressive as time goes on. You gain the following benefits:
+			</p>
+			<ul>
+				<li>
+					Whenever you successfully engulf a creature, you can use a bonus action to use your Read Memories trait against the creature for as long as it is engulfed by you.
+				</li>
+				<li>
+					When you successfully read the mind of a creature you have engulfed, you can steal some of its memories and leave creature’s memories drained for one minute. A creature that has its memories drained must whenever it makes an attack roll, saving throw, or skill check, roll a d4 and subtract the number rolled from the attack roll, saving throw, or skill check. The memory drained creature makes a Wisdom saving throw at the end of each of its turns, ending the effect on a success.
+				</li>
+				<li>
+					You can use your Read Memories trait one additional time before you have to take a short or long rest to use it again. Once a creature successfully saves against your Read Memories trait it becomes immune to it for 1 hour.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				Whenever you successfully engulf a creature, you can use a bonus action to use your Read Memories trait against the creature for as long as it is engulfed by you.
+				When you successfully read the mind of a creature you have engulfed, you can steal some of its memories and leave creature’s memories drained for one minute. A creature that has its memories drained must whenever it makes an attack roll, saving throw, or skill check, roll a d4 and subtract the number rolled from the attack roll, saving throw, or skill check. The memory drained creature makes a Wisdom saving throw at the end of each of its turns, ending the effect on a success.
+				You can use your Read Memories trait one additional time before you have to take a short or long rest to use it again. Once a creature successfully saves against your Read Memories trait it becomes immune to it for 1 hour.
+			</description>
+		</sheet>
+	</element>
+	<element name="Mimic Kin" type="Feat" source="Third Party" id="ID_TP_FEAT_MIMIC_KIN">
+		<prerequisite>Slime Folk (Eldritch)</prerequisite>
+		<requirements>ID_SUB_RACE_ELDRITCH</requirements>
+		<description>
+			<p>
+				<i>Prerequisite: Slime Folk (Eldritch)</i>
+			</p>
+			<p>
+				You pushed the limits of your own maleability and unlocked a new potential to reshape your own body. You gain the following benefits:
+			</p>
+			<ul>
+				<li>
+					Your own body becomes a usable disguise kit that you are proficient with and only you can use. You can only use this disguise kit to disguise yourself, as you shift and change your own features and colors to take a new appearance.
+				</li>
+				<li>
+					You can use an action to change your shape and appearance, to decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and other characteristics for one hour. You can appear as a member of another race, appear as a beast or plant, or as an object, though none of your statistics change. Your new appearance must have the same size category as you, meaning you can’t change your form into a small animal or large object for example. When you take damage, become incapacitated, or die, you return into your original form. You can use an action or bonus action to transform back into your orignal form. Once you use this feature, you must finish a long rest before you can use it again.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+				Whenever you successfully engulf a creature, you can use a bonus action to use your Read Memories trait against the creature for as long as it is engulfed by you.
+				When you successfully read the mind of a creature you have engulfed, you can steal some of its memories and leave creature’s memories drained for one minute. A creature that has its memories drained must whenever it makes an attack roll, saving throw, or skill check, roll a d4 and subtract the number rolled from the attack roll, saving throw, or skill check. The memory drained creature makes a Wisdom saving throw at the end of each of its turns, ending the effect on a success.
+				You can use your Read Memories trait one additional time before you have to take a short or long rest to use it again. Once a creature successfully saves against your Read Memories trait it becomes immune to it for 1 hour.
+			</description>
+		</sheet>
+	</element>
+</elements>
