@@ -3,6 +3,9 @@
     <info>
         <name>Slime Girl</name>
 		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tux</author>
+		<update version="1.0">
+			<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.xml"/>
+		</update>
     </info>
 
     <element name="Slime Folk" type="Race" source="DM Tuz" id="ID_RACE_SLIME_FOLK">
