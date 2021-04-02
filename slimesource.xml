@@ -2,6 +2,7 @@
 <elements>
 	<info>
 		<update version="1.0">
+			<file name="slimesource.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimesource.xml"/>
 		</update>
 	</info>
 	<element name="DM Tuz" type="Source" source="Third Party" id="ID_HOMEBREW_SOURCE_DM_TUZ">
