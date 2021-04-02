@@ -4,6 +4,9 @@
 		<name>
 			DM Tuz
 		</name>
+		<update>
+			<file name="slimefolk.index" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.index"/>
+		</update>
 	</info>
 	<files>
 		<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.xml"/>
