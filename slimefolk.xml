@@ -115,7 +115,7 @@
             <description>Instead of grappling a creature with your arms, you can take hold of a creature with your oozelike body. When grappling you can use your Constitution in place of your Strength. Additionally, as an action you can attempt to engulf an object or creature of your size or smaller within 5 ft. of yourself. The creature must succeed a Dexterity saving throw or be grappled by you. A creature grappled this way is partially engulfed in your body and restrained for the duration of the grapple. You can have one creature or object grappled this way at a time. The DC is equal to 8 + your proficiency modifier + your Constitution modifier.</description>
         </sheet>
     </element>
-	<element name="Engulf" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_PSEUDOPOD">
+	<element name="Pseudopod" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_PSEUDOPOD">
 		<description>
 			<p>
 				You have a natural weapon attack that deals 1d6 plus your Strength modifier acid damage.
