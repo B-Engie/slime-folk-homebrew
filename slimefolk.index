@@ -4,7 +4,7 @@
 		<name>
 			DM Tuz
 		</name>
-		<update version="1.0">
+		<update version="1.1">
 			<file name="slimefolk.index" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.index"/>
 		</update>
 	</info>
