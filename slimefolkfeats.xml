@@ -24,15 +24,9 @@
 			</p>
 			<ul>
 				<li>Your Constitution score increases by 1, to a maximum of 20.</li>
-				<li>
-					When jumping you can use your Constitution score in place of your Strength score to determine how far and high you can jump.
-				</li>
-				<li>
-					When you take the dodge action you become resistant to bludgeoning damage until the beginning of your next turn.
-				</li>
-				<li>
-					When you take bludgeoning damage, you can use a reaction to gain resistance to bludgeoning damage until the end of your next turn. If you use this feature to gain resistance to bludgeoning damage caused by falling, you do not fall prone after landing. Once you use this feature, you can’t use it again until you finish a short or long rest.
-				</li>
+				<li>When jumping you can use your Constitution score in place of your Strength score to determine how far and high you can jump.</li>
+				<li>When you take the dodge action you become resistant to bludgeoning damage until the beginning of your next turn.</li>
+				<li>When you take bludgeoning damage, you can use a reaction to gain resistance to bludgeoning damage until the end of your next turn. If you use this feature to gain resistance to bludgeoning damage caused by falling, you do not fall prone after landing. Once you use this feature, you can’t use it again until you finish a short or long rest.</li>
 			</ul>
 		</description>
 		<sheet>
