@@ -4,6 +4,9 @@
 		<name>Slime Folk Feats</name>
 		<description>Feats to accompany DM Tuz's Slime Folk Homebrew race.</description>
 		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tuz</author>
+		<update version="1.0">
+			<file name="slimefolkfeats.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolkfeats.xml"/>
+		</update>
 	</info>
 
 	<element name="Bouncy" type="Feat" source="DM Tuz" id="ID_DMT_FEAT_BOUNCY">
