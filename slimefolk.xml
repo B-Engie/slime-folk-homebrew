@@ -81,7 +81,6 @@
 <!--        <grant type="Vision" id="ID_VISION_DARKVISION" />  DARKVISION!! -->
             <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" /> <!--what does this mean???-->
             <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
-            <grant type="Language" id="ID_LANGUAGE_SLIME_FOLK" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AMORPHOUS" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_OOZE_NATURE" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ENGULF" />
@@ -116,6 +115,18 @@
             <description>Instead of grappling a creature with your arms, you can take hold of a creature with your oozelike body. When grappling you can use your Constitution in place of your Strength. Additionally, as an action you can attempt to engulf an object or creature of your size or smaller within 5 ft. of yourself. The creature must succeed a Dexterity saving throw or be grappled by you. A creature grappled this way is partially engulfed in your body and restrained for the duration of the grapple. You can have one creature or object grappled this way at a time. The DC is equal to 8 + your proficiency modifier + your Constitution modifier.</description>
         </sheet>
     </element>
+	<element name="Engulf" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_PSEUDOPOD">
+		<description>
+			<p>
+				You have a natural weapon attack that deals 1d6 plus your Strength modifier acid damage.
+			</p>
+		</description>
+		<sheet>
+			<p>
+				You have a natural weapon attack that deals 1d6 plus your Strength modifier acid damage.
+			</p>
+		</sheet>
+	</element>
     <element name="Slime Folk Subrace" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_SLIME_FOLK_SUBRACE">
         <description>
             <p> Slime Folk come in several shapes and colors. More importantly, they come in different types. Choose one of the following subraces to determine your exact slime folk nature: Alchemical, Eldritch, Feral, and Mnemonic.
