@@ -476,24 +476,16 @@
 		</p>
 			<list type="bullet">
 				<item>
-					<description>
-						You learn to speak and write one language the creature speaks.
-					</description>
+					<description>&#8729;You learn to speak and write one language the creature speaks.</description>
 				</item>
 			    <item>
-					<description>
-						You become proficient in using a tool that the creature is proficient with.
-					</description>
+					<description>You become proficient in using a tool that the creature is proficient with.</description>
 			    </item>
 				<item>
-					<description>
-						You become proficient in wielding a weapon the creature is proficient with.
-					</description>
+					<description>You become proficient in wielding a weapon the creature is proficient with.</description>
 				</item>
 				<item>
-					<description>
-						You become proficient with one skill the creature is proficient with.
-					</description>
+					<description>You become proficient with one skill the creature is proficient with.</description>
 				</item>
 			</list>
 			<p>
