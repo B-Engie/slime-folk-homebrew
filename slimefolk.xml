@@ -3,29 +3,42 @@
     <info>
         <name>Slime Girl</name>
 		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tux</author>
-		<update version="1.1">
+		<update version="1.2"> 
+			<!-- 
+		        update 1: added psuedopod element and removed slime folk language element
+				update 2: made things look nicer
+		    -->
 			<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.xml"/>
 		</update>
     </info>
 
     <element name="Slime Folk" type="Race" source="DM Tuz" id="ID_RACE_SLIME_FOLK">
         <description>
-            <p class="flavor">
-            The exact nature and origin of these strange humanoids is a mystery to today’s sages. The Slime Folk’s records of their limited history are oral traditions, which are frustratingly inconsistent as records vary widely from one colony to the next and usually taken at face value by the Slime Folk who do not seem to care to verify any of these tales. Leading theories about the Slime Folk’s origins range from being Juiblex’s errant creation, the result of an accident of magical refuse, or a simple aberrant mutation from the underdark. What can be agreed is that the Slime Folk have a lineage with the monstrous oozes around the world, with whom they share many properties. They live between the surface and the depths of the underdark in sprawling colonies that house hundreds of Slime Folk. The Slime Folk are always willing to lend a helping hand, their social reach and habitats remain as spread out and flexible as their amorphous bodies.
-            </p>
+			<p class="flavor">
+				The exact nature and origin of these strange humanoids is a mystery to today’s sages. The Slime Folk’s records of their limited history are oral traditions, which are frustratingly inconsistent as records vary widely from one colony to the next and usually taken at face value by the Slime Folk who do not seem to care to verify any of these tales.
+			</p>
+			<p class="flavor">
+				Leading theories about the Slime Folk’s origins range from being Juiblex’s errant creation, the result of an accident of magical refuse, or a simple aberrant mutation from the underdark. What can be agreed is that the Slime Folk have a lineage with the monstrous oozes around the world, with whom they share many properties. They live between the surface and the depths of the underdark in sprawling colonies that house hundreds of Slime Folk. The Slime Folk are always willing to lend a helping hand, their social reach and habitats remain as spread out and flexible as their amorphous bodies.
+			</p>
             <h4>COZY COMPANY</h4>
-            <p>
-                Excitable, curious, friendly, and affectionate are all common descriptions for the average Slime Folk. They are constantly starved for stimulation, which is found in abundance on the surface. They revel in the many things they find outside of their homes and find themselves very quickly attached to any passersby who keeps them company. Slime Folk are straight forward and docile creatures, commonly preferring the path of least resistance in their decision making. Only dire circumstances will force them to forgo their desire to please others. However, the Slime Folk’s amicable nature can be a blessing as well as a curse. For one their malleable form left them with a skewered or almost absent sense of physical space or boundaries, for another their innate naivete and forgiving nature can lead them to be easily taken advantage of by manipulators. Even Slime Folk who have been repeatedly wronged and hurt might withdraw temporarily, but will eventually heal.
-            </p>
+			<p class="indent">
+				Excitable, curious, friendly, and affectionate are all common descriptions for the average Slime Folk. They are constantly starved for stimulation, which is found in abundance on the surface. They revel in the many things they find outside of their homes and find themselves very quickly attached to any passersby who keeps them company. Slime Folk are straight forward and docile creatures, commonly preferring the path of least resistance in their decision making. Only dire circumstances will force them to forgo their desire to please others.
+			</p>
+			<p class="indent">
+				However, the Slime Folk’s amicable nature can be a blessing as well as a curse. For one their malleable form left them with a skewered or almost absent sense of physical space or boundaries, for another their innate naivete and forgiving nature can lead them to be easily taken advantage of by manipulators. Even Slime Folk who have been repeatedly wronged and hurt might withdraw temporarily, but will eventually heal.
+			</p>
             <h4>PHYSIOLOGY</h4>
-            <p>
-                The form of the Slime Folk body is gelatinous, flexible matter: similar to their ooze relatives, they are able to bend, squeeze, morph, and adjust far beyond the capabilities of other typical humanoids. This however, doesn’t make their bodies immune to damage from blunt trauma or exhaustion. Enough damage to their physical form will lead their bodies to lose stability and consistency. Slime Folk vary wildly in size, in spirit with their flexible nature. Commonly they average around the size relative to a human, though outliers towards the either extreme are not uncommon. Their gelatinous bodies have a translucent sheen that can range from clear to murks and feature a variety of colors. Some rare specimens might feature several colors manifesting in patterns or gradients.
-            </p>    
-<p class="indent">
+			<p class="indent">
+				The form of the Slime Folk body is gelatinous, flexible matter: similar to their ooze relatives, they are able to bend, squeeze, morph, and adjust far beyond the capabilities of other typical humanoids. This however, doesn’t make their bodies immune to damage from blunt trauma or exhaustion. Enough damage to their physical form will lead their bodies to lose stability and consistency.
+			</p>
+			<p class="indent">
+				Slime Folk vary wildly in size, in spirit with their flexible nature. Commonly they average around the size relative to a human, though outliers towards the either extreme are not uncommon. Their gelatinous bodies have a translucent sheen that can range from clear to murks and feature a variety of colors. Some rare specimens might feature several colors manifesting in patterns or gradients.
+			</p>    
+            <p class="indent">
                 Being an ooze, the Slime Folk can taste with the entirety of their body - their sense is selective to prevent overstimulation. Further, the Slime Folk are able to store large amounts of fluids and food in their body, which can drastically morph and expand their size.
             </p>
             <h4>SLIME FOLK NAMES NAMES</h4>
-            <p>
+            <p class="indent">
                 Slime Folk commonly do not see the need for names for one another within their colonies. But as contact with the surface world was made and the concept of names got introduced to the Slime Folk it became a trend that quickly caught on. Slime Folk choose their own names and know little about the deeper meaning and importance of names which they see as surface level accessories. This has lead to many of the Slime Folk’s chosen names to be whimsical, tongue-in-cheek, or nonesensical.
             </p>
             <p>
@@ -79,7 +92,7 @@
             <stat name="innate speed" value="25" bonus="base" />
             <grant type="Size" id="ID_SIZE_MEDIUM" />
 <!--        <grant type="Vision" id="ID_VISION_DARKVISION" />  DARKVISION!! -->
-            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" /> <!--what does this mean???-->
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_UA20171113_SUB_RACE_GRUGACH" /> <!-- takes common language from languages index in other file-->
             <grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_AMORPHOUS" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_OOZE_NATURE" />
@@ -100,7 +113,8 @@
     </element>
     <element name="Amorphous" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_AMORPHOUS">
         <description>
-            <p>You can move through a space as narrow as 1 foot wide without squeezing. If any equipment you’re holding or carrying is larger than the space you are attempting to pass through, it gets left behind.
+            <p>
+				You can move through a space as narrow as 1 foot wide without squeezing. If any equipment you’re holding or carrying is larger than the space you are attempting to pass through, it gets left behind.
             </p>
         </description>
         <sheet>
@@ -123,9 +137,12 @@
 		</description>
 		<sheet>
 			<p>
-				You have a natural weapon attack that deals 1d6 plus your Strength modifier acid damage.
+				You have a natural weapon attack that deals 1d6 plus {{pseudopod:dam}} acid damage.
 			</p>
 		</sheet>
+		<rules>
+			<stat name="psuedopod:dam" value="strength:modifier" />
+		</rules>
 	</element>
     <element name="Slime Folk Subrace" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_SLIME_FOLK_SUBRACE">
         <description>
@@ -137,15 +154,59 @@
             <select type="Sub Race" name="Slime Folk Subrace" supports="Slime Folk" />
         </rules>
     </element>
-
+	<!--ALCHEMICAL SLIME-->
     <element name="Alchemical" type="Sub Race" source="DM Tuz" id="ID_SUB_RACE_ALCHEMICAL">
         <supports>Slime Folk</supports>
         <description>
-            <p>
-                Driven by their endless curiosity, the Alchemical Slime Folk revel in experimentation. They emerged recently as more slime folk made their home in sprawling cities and encountered the many arcane marvels city life has to offer. Their alchemical nature manifests in vibrant colors that these peculiar Slime Folk feature, which might shift and adapt with their elemental balance of their bodies. Unique even among other Slime Folk, their sense of taste is highly refined, able to determine the components and nature of a material by thoroughly handling it. This innate ability for analysis allows alchemical slime girls to feed their ceaseless curiosity. Focused on their pursuit of knowledge, the Alchemical Slime Folk are scatterbrained, but smarter and more analytical than other Slime Folk. Their bodies contain alchemical components which is a frequent subject of the Alchemical Slime Folk’s studies. As a result of that, they gained an understanding of their unique anatomy and learned to shift their alchemical composure to favor one elemental balance over the others.
-            </p>
+			<p class="indent">
+				Driven by their endless curiosity, the Alchemical Slime Folk revel in experimentation. They emerged recently as more slime folk made their home in sprawling cities and encountered the many arcane marvels city life has to offer.
+			</p>
+			<p class="indent">
+				Their alchemical nature manifests in vibrant colors that these peculiar Slime Folk feature, which might shift and adapt with their elemental balance of their bodies. Unique even among other Slime Folk, their sense of taste is highly refined, able to determine the components and nature of a material by thoroughly handling it. This innate ability for analysis allows alchemical slime girls to feed their ceaseless curiosity.
+			</p>
+			<p class="indent">
+				Focused on their pursuit of knowledge, the Alchemical Slime Folk are scatterbrained, but smarter and more analytical than other Slime Folk. Their bodies contain alchemical components which is a frequent subject of the Alchemical Slime Folk’s studies. As a result of that, they gained an understanding of their unique anatomy and learned to shift their alchemical composure to favor one elemental balance over the others.
+			</p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1.</p>
-            <p class="indent"><strong><em>Alchemical Makeup</em></strong> Your inner balance of alchemical components grant you unique perks. Choose one of the following damage types: acid, cold, fire, lightning, poison. You are resistant to the chosen damage type. Additionally you learn one of the following cantrips depending on the chosen damage type: Intelligence is your spellcasting ability for these spells.</p>
+			<p class="indent">
+				<strong>
+					<em>Alchemical Makeup</em>
+				</strong> 
+				Your inner balance of alchemical components grant you unique perks. Choose one of the following damage types: acid, cold, fire, lightning, poison. You are resistant to the chosen damage type. Additionally you learn one of the following cantrips depending on the chosen damage type:
+			</p>
+			<table>
+				<thead>
+					<tr>
+						<td>
+							<b>Damage Resistance</b>
+						</td>
+						<td>
+							<b>Cantrip Learned</b>
+						</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>Acid</td>
+					<td>Acid Splash</td>
+				</tr>
+				<tr>
+					<td>Cold</td>
+					<td>Ray of Frost</td>
+				</tr>
+				<tr>
+					<td>Fire</td>
+					<td>Firebolt</td>
+				</tr>
+				<tr>
+					<td>Lightning</td>
+					<td>Shocking Grasp</td>
+				</tr>
+				<tr>
+					<td>Poison</td>
+					<td>Poison Spray</td>
+				</tr>
+			</table>
+			<p>Intelligence is your spellcasting ability for these spells.</p>
             <p class="indent"><strong><em>Alchemical Adaption.</em></strong> Your knowledge about your inner alchemy is vast and you learned to adapt and alter your inner chemistry. You can change your inner chemistry by consuming 50 gp worth of arcane material components and change your resistance and exchange the corresponding cantrip to the new one according to your new resistance of your Alchemical Makeup trait after one minute of digestion. Changing your inner chemistry might change the color of your body to reflect your change. Once you use this feature, you can’t use it again until you have finished a long rest.</p>
         </description>
         <sheet display="false" />
@@ -210,7 +271,6 @@
 	        <grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" requirements="ID_RACIAL_TRAIT_ALCHEMICAL_MAKEUP_COLD"/>
         </rules>
     </element>
-	
     <element name="Alchemical Makeup (Acid)" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_ALCHEMICAL_MAKEUP_ACID">
 		<supports>Alchemical Makeup</supports>
 		<description>
@@ -225,7 +285,6 @@
 			<stat inline="true" name="alchemical-makeup:cantrip" value="Acid Splash" />
 		</rules>
 	</element>
-	
     <element name="Alchemical Makeup (Fire)" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_ALCHEMICAL_MAKEUP_FIRE">
 		<supports>Alchemical Makeup</supports>
 		<description>
@@ -240,7 +299,6 @@
 			<stat inline="true" name="alchemical-makeup:cantrip" value="Firebolt" />
 		</rules>
 	</element>
-	
     <element name="Alchemical Makeup (Cold)" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_ALCHEMICAL_MAKEUP_COLD">
 		<supports>Alchemical Makeup</supports>
 		<description>
@@ -255,7 +313,6 @@
 			<stat inline="true" name="alchemical-makeup:cantrip" value="Ray of Frost" />
 		</rules>
 	</element>
-	
     <element name="Alchemical Makeup (Lightning)" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_ALCHEMICAL_MAKEUP_LIGHTNING">
 		<supports>Alchemical Makeup</supports>
 		<description>
@@ -270,7 +327,6 @@
 			<stat inline="true" name="alchemical-makeup:cantrip" value="Shocking Grasp" />
 		</rules>
 	</element>
-	
     <element name="Alchemical Makeup (Poison)" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_ALCHEMICAL_MAKEUP_POISON">
 		<supports>Alchemical Makeup</supports>
 		<description>
@@ -285,18 +341,25 @@
 			<stat inline="true" name="alchemical-makeup:cantrip" value="Poison Spray" />
 		</rules>
 	</element>
-	
     <element name="Alchemical Adaptation" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_ALCHEMICAL_ADAPTATION">
         <description>
             <p>Your knowledge about your inner alchemy is vast and you learned to adapt and alter your inner chemistry. You can change your inner chemistry by consuming 50 gp worth of arcane material components and change your resistance and exchange the corresponding cantrip to the new one according to your new resistance of your Alchemical Makeup trait after one minute of digestion. Changing your inner chemistry might change the color of your body to reflect your change. Once you use this feature, you can’t use it again until you have finished a long rest.</p>
         </description>
         <sheet display="false" />
     </element>
-
+	<!--ELDRITCH SLIME-->
     <element name="Eldritch" type="Sub Race" source="DM Tuz" id="ID_SUB_RACE_ELDRITCH">
         <supports>Slime Folk</supports>
         <description>
-            <p>Rising from the depths of the Underdark, Eldritch Slime Folk have a much more unearthly appearance, modeling after their abyssal neighbors. As well, due to their habitat, these Slime Folk are far more flexible in both mind and body than the usual- their gelatin is almost rubberlike, and their nature much calmer. Their adaptability makes them natural charmers, due to their attunement to the nature of the abyss; compared to what they‘ve seen in the Underdark, the workings of the human mind are easy to comprehend.</p>
+			<p>
+				Rising from the depths of the Underdark, Eldritch Slime Folk have a much more unearthly appearance, modeling after their abyssal neighbors.
+			</p>
+			<p class="indent">
+				As well, due to their habitat, these Slime Folk are far more flexible in both mind and body than the usual- their gelatin is almost rubberlike, and their nature much calmer.
+			</p>
+			<p class="indent">
+				Their adaptability makes them natural charmers, due to their attunement to the nature of the abyss; compared to what they‘ve seen in the Underdark, the workings of the human mind are easy to comprehend.
+			</p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
             <p class="indent"><strong><em>Darkvision.</em></strong> Your eyes are adapted to the darkness, you have surperior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
             <p class="indent"><strong><em>Stretchy Tendrils.</em></strong> On your turn, the reach of your unarmed strike and melee weapon attack with a range of 5 ft., as well as spells with a range of touch, have a range of 10 ft.</p>
@@ -319,7 +382,9 @@
             <p>On your turn, the reach of your unarmed strike and melee weapon attack with a range of 5 ft., as well as spells with a range of touch, have a range of 10 ft.</p>
         </description>
         <sheet>
-            <description>Your reach is 10 ft.</description>
+            <description>
+				Your reach for unarmed strikes, melee weapon attacks, and touch spells is 10 ft.
+			</description>
         </sheet>
     </element>
 	<element name="Flexibility" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_FLEXIBILITY">
@@ -329,10 +394,16 @@
 			</p>
 		</description>
 	</element>
-    <element name="Feral" type="Sub Race" source="DM Tuz" id="ID_SUB_RACE_FERAL">
+	<!--FERAL SLIME-->
+	<element name="Feral" type="Sub Race" source="DM Tuz" id="ID_SUB_RACE_FERAL">
         <supports>Slime Folk</supports>
         <description>
-            <p>Subject to their basest instincts, Feral Slime Folk forego the desire to socialize in favor of experiencing new, interesting things to ingest. Lurking in caves and forests far from civilization, these slime folk will hunt for any meal of interest, whether it be small animals, monsters, or even humanoids. As they are able to quickly digest and absorb food, they are rarely starving: they just focus on the experience and taste.</p>            
+			<p>
+				Subject to their basest instincts, Feral Slime Folk forego the desire to socialize in favor of experiencing new, interesting things to ingest. Lurking in caves and forests far from civilization, these slime folk will hunt for any meal of interest, whether it be small animals, monsters, or even humanoids.
+			</p>
+			<p class="indent">
+				As they are able to quickly digest and absorb food, they are rarely starving: they just focus on the experience and taste.
+			</p>            
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
             <p class="indent"><strong><em>Digestion.</em></strong> At the beginning of your turn you can deal 1d6 acid damage to a creature engulfed by you.</p>
             <p class="indent"><strong><em>Consume</em></strong> When taking a short rest, you can eat one creature of your size or one size larger that is not a construct, elemental, or undead, if you do, you gain an additional hit dice that you have to spend during that short rest. If the devoured creature is a large creature or larger, you roll twice on the gained hit dice and choose the higher result. Consuming a creature will nourish you for one day. You can use this trait equal to half of your proficiency modifier (rounded down) before you have to finish a long rest to use it again.</p>
@@ -369,11 +440,18 @@
 		    <stat name="feral-consume:prof" value="1" level="17" />
         </rules>
     </element>
+	<!--MNEMONIC SLIME-->
 	<element name="Mnemonic" type="Sub Race" source="DM Tuz" id="ID_SUB_RACE_MNEMONIC">
 		<supports>Slime Folk</supports>
 		<description>
 			<p>
-				Enigmatic and withdrawn, the Mnemonic Slime Folk stand in stark contrast to their other cousins. While their origins are unknown, a lineage with the mysterious Oblex ooze is suspected, with whom the Mnemonic Slime Folk share many traits. Mnemonic Slime Folk are natural mind readers, as they are able to tap into the memories of cognitive beings by a single touch of their gelatinous bodies. A trait which makes the Mnemonic Slime Folk empathic and more thoughtful than their cousins. The Mnemonic Slime Folk understand the weight of an ability to delve into the inner being of another creature. While physical boundaries are a hard concept to grasp for them, they recognize secrets and personal memories as something better left untouched. This makes Mnemonic Slime Folk appear unapproachable at first, but once those initial barriers are breached, their relation to the other affable Slime Folk becomes more than apparent.
+				Enigmatic and withdrawn, the Mnemonic Slime Folk stand in stark contrast to their other cousins. While their origins are unknown, a lineage with the mysterious Oblex ooze is suspected, with whom the Mnemonic Slime Folk share many traits. 
+			</p>
+			<p class="indent">
+				Mnemonic Slime Folk are natural mind readers, as they are able to tap into the memories of cognitive beings by a single touch of their gelatinous bodies. A trait which makes the Mnemonic Slime Folk empathic and more thoughtful than their cousins. 
+			</p>	
+			<p class="indent">	
+				The Mnemonic Slime Folk understand the weight of an ability to delve into the inner being of another creature. While physical boundaries are a hard concept to grasp for them, they recognize secrets and personal memories as something better left untouched. This makes Mnemonic Slime Folk appear unapproachable at first, but once those initial barriers are breached, their relation to the other affable Slime Folk becomes more than apparent.
 			</p>
 		<p class="indent">
 			<strong>
@@ -385,7 +463,10 @@
 			<strong>
 				<em>Read Memories</em>
 			</strong>
-		Touching a creature allows you to read the memories of a creature. As an action, you can touch a creature in your reach and have it make a Wisdom saving throw. On a failed save you read the memories of the creature, learning of one specific memory important to the creature (DMs discression), or a specific memory of your choosing (for example the creature’s memories about meeting another character). The DC is equal to 8 + your Wisdom modifier + your proficiency modifer. Once you use trait you can’t use it again until you finish a short or long rest. Oozes, Plants, and Undead creatures automatically succeed the saving throw.
+		Touching a creature allows you to read the memories of a creature. As an action, you can touch a creature in your reach and have it make a Wisdom saving throw. On a failed save you read the memories of the creature, learning of one specific memory important to the creature (DMs discression), or a specific memory of your choosing (for example the creature’s memories about meeting another character). The DC is equal to 8 + your Wisdom modifier + your proficiency modifer. Once you use trait you can’t use it again until you finish a short or long rest. 
+		</p>
+		<p>	
+		Oozes, Plants, and Undead creatures automatically succeed the saving throw.
 		</p>
 		<p class="Adopt Memories">
 			<strong>
