@@ -1,13 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
         <name>Slime Folk</name>
-		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tux</author>
+		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tuz</author>
 		<update version="1.2"> 
 			<!-- 
 		        update 1: added psuedopod element and removed slime folk language element
 				update 2: made things look nicer
-				update 3: changed the name from slime girl to slime folk, removed name name
 		    -->
 			<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.xml"/>
 		</update>
@@ -21,6 +20,7 @@
 			<p class="flavor">
 				Leading theories about the Slime Folk’s origins range from being Juiblex’s errant creation, the result of an accident of magical refuse, or a simple aberrant mutation from the underdark. What can be agreed is that the Slime Folk have a lineage with the monstrous oozes around the world, with whom they share many properties. They live between the surface and the depths of the underdark in sprawling colonies that house hundreds of Slime Folk. The Slime Folk are always willing to lend a helping hand, their social reach and habitats remain as spread out and flexible as their amorphous bodies.
 			</p>
+			
             <h4>COZY COMPANY</h4>
 			<p class="indent">
 				Excitable, curious, friendly, and affectionate are all common descriptions for the average Slime Folk. They are constantly starved for stimulation, which is found in abundance on the surface. They revel in the many things they find outside of their homes and find themselves very quickly attached to any passersby who keeps them company. Slime Folk are straight forward and docile creatures, commonly preferring the path of least resistance in their decision making. Only dire circumstances will force them to forgo their desire to please others.
@@ -28,6 +28,7 @@
 			<p class="indent">
 				However, the Slime Folk’s amicable nature can be a blessing as well as a curse. For one their malleable form left them with a skewered or almost absent sense of physical space or boundaries, for another their innate naivete and forgiving nature can lead them to be easily taken advantage of by manipulators. Even Slime Folk who have been repeatedly wronged and hurt might withdraw temporarily, but will eventually heal.
 			</p>
+			
             <h4>PHYSIOLOGY</h4>
 			<p class="indent">
 				The form of the Slime Folk body is gelatinous, flexible matter: similar to their ooze relatives, they are able to bend, squeeze, morph, and adjust far beyond the capabilities of other typical humanoids. This however, doesn’t make their bodies immune to damage from blunt trauma or exhaustion. Enough damage to their physical form will lead their bodies to lose stability and consistency.
@@ -38,6 +39,7 @@
             <p class="indent">
                 Being an ooze, the Slime Folk can taste with the entirety of their body - their sense is selective to prevent overstimulation. Further, the Slime Folk are able to store large amounts of fluids and food in their body, which can drastically morph and expand their size.
             </p>
+			
             <h4>SLIME FOLK NAMES</h4>
             <p class="indent">
                 Slime Folk commonly do not see the need for names for one another within their colonies. But as contact with the surface world was made and the concept of names got introduced to the Slime Folk it became a trend that quickly caught on. Slime Folk choose their own names and know little about the deeper meaning and importance of names which they see as surface level accessories. This has lead to many of the Slime Folk’s chosen names to be whimsical, tongue-in-cheek, or nonesensical.
@@ -46,6 +48,7 @@
                 <span class="feature">Male Adult Names:</span>Androop, Augoostus, Blobert, Crooze, Droopy, Elijam, Fargrime, Goobert, Hooey, Isastretch, Jiggle-Jack, Keigel, Loo, Murmy-Marc, Neebs, Oozeborne, Quiscus, Raggidy, Slick, Tarvis, Ulabog, Virool, Warmire, Xerbles, Yambo, Zeta<br />
                 <span class="feature">Female Adult Names:</span>Amorpha, Bubbles, Chartar, Dribble, Elizablob, Felicitar, Goondula, Haggles, Icky, Jammy, Karambrine, Lemon, Mucy, Oozmerelda, Pudding, Queque, Ramba, Slimantha, Tarbitha, Uppa, Victaria, Wobblarella, Xana, Ylla, Zayamorph<br />
             </p>
+			
             <h4>SLIME FOLK TRAITS</h4>
             <p>
                 Your oozelike nature gives you plents of advantages, some of which are determined by your subrace.
@@ -466,7 +469,7 @@
 			</strong>
 		Touching a creature allows you to read the memories of a creature. As an action, you can touch a creature in your reach and have it make a Wisdom saving throw. On a failed save you read the memories of the creature, learning of one specific memory important to the creature (DMs discression), or a specific memory of your choosing (for example the creature’s memories about meeting another character). The DC is equal to 8 + your Wisdom modifier + your proficiency modifer. Once you use trait you can’t use it again until you finish a short or long rest. 
 		</p>
-		<p>	
+		<p class="indent">	
 		Oozes, Plants, and Undead creatures automatically succeed the saving throw.
 		</p>
 		<p class="indent">
@@ -477,16 +480,24 @@
 		</p>
 			<list type="bullet">
 				<item>
-					<description>&#8729;You learn to speak and write one language the creature speaks.</description>
+					<description>
+						You learn to speak and write one language the creature speaks.
+					</description>
 				</item>
 			    <item>
-					<description>You become proficient in using a tool that the creature is proficient with.</description>
+					<description>
+						You become proficient in using a tool that the creature is proficient with.
+					</description>
 			    </item>
 				<item>
-					<description>You become proficient in wielding a weapon the creature is proficient with.</description>
+					<description>
+						You become proficient in wielding a weapon the creature is proficient with.
+					</description>
 				</item>
 				<item>
-					<description>You become proficient with one skill the creature is proficient with.</description>
+					<description>
+						You become proficient with one skill the creature is proficient with.
+					</description>
 				</item>
 			</list>
 			<p>
