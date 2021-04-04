@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Slime Girl</name>
+        <name>Slime Folk</name>
 		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tux</author>
 		<update version="1.2"> 
 			<!-- 
 		        update 1: added psuedopod element and removed slime folk language element
 				update 2: made things look nicer
+				update 3: changed the name from slime girl to slime folk, removed name name
 		    -->
 			<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.xml"/>
 		</update>
