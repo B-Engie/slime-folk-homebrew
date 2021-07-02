@@ -3,12 +3,13 @@
     <info>
         <name>Slime Folk</name>
 		<author url="https://dm-tuz.tumblr.com/post/645402583052222464/the-slime-folk-player-race-artwork-by">DM Tux</author>
-		<update version="1.2"> 
+		<update version="1.5"> 
 			<!-- 
 		        update 1: added psuedopod element and removed slime folk language element
 				update 2: made things look nicer
 				update 3: changed the name from slime girl to slime folk, removed name name
 				update 4: adding divisions
+				update 5: worked on the "UNKNOWN VALUE" error in character sheer
 		    -->
 			<file name="slimefolk.xml" url="https://raw.githubusercontent.com/B-Engie/slime-folk-homebrew/main/slimefolk.xml"/>
 		</update>
@@ -132,7 +133,7 @@
             <p>Instead of grappling a creature with your arms, you can take hold of a creature with your oozelike body. When grappling you can use your Constitution in place of your Strength. Additionally, as an action you can attempt to engulf an object or creature of your size or smaller within 5 ft. of yourself. The creature must succeed a Dexterity saving throw or be grappled by you. A creature grappled this way is partially engulfed in your body and restrained for the duration of the grapple. You can have one creature or object grappled this way at a time. The DC is equal to 8 + your proficiency modifier + your Constitution modifier.</p>
         </description>
         <sheet>
-            <description>Instead of grappling a creature with your arms, you can take hold of a creature with your oozelike body. When grappling you can use your Constitution in place of your Strength. Additionally, as an action you can attempt to engulf an object or creature of your size or smaller within 5 ft. of yourself. The creature must succeed a Dexterity saving throw or be grappled by you. A creature grappled this way is partially engulfed in your body and restrained for the duration of the grapple. You can have one creature or object grappled this way at a time. The DC is equal to {{slime-engul:dc}}.</description>
+            <description>Instead of grappling a creature with your arms, you can take hold of a creature with your oozelike body. When grappling you can use your Constitution in place of your Strength. Additionally, as an action you can attempt to engulf an object or creature of your size or smaller within 5 ft. of yourself. The creature must succeed a Dexterity saving throw or be grappled by you. A creature grappled this way is partially engulfed in your body and restrained for the duration of the grapple. You can have one creature or object grappled this way at a time. The DC is equal to {{slime-engulf:dc}}.</description>
         </sheet>
 		<rules>
 			<stat name="slime-engulf:dc" value="8" />
@@ -143,16 +144,16 @@
 	<element name="Pseudopod" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_PSEUDOPOD">
 		<description>
 			<p>
-				You have a natural weapon attack that deals 1d6 plus your Strength modifier acid damage.
+				You have a natural weapon attack that deals 1d6 plus your Strength modifier Acid damage.
 			</p>
 		</description>
 		<sheet>
 			<p>
-				You have a natural weapon attack that deals 1d6 plus {{pseudopod:dam}} acid damage.
+				You have a natural weapon attack that deals 1d6 plus {{pseudopod:dam}} Acid damage.
 			</p>
 		</sheet>
 		<rules>
-			<stat name="psuedopod:dam" value="strength:modifier" />
+			<stat name="pseudopod:dam" value="strength:modifier" />
 		</rules>
 	</element>
     <element name="Slime Folk Subrace" type="Racial Trait" source="DM Tuz" id="ID_RACIAL_TRAIT_SLIME_FOLK_SUBRACE">
